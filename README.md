@@ -7,8 +7,8 @@ Also a #WIP.
 ## What it'll do
 
 #### Soon
-* create random tarot cards in a bootstrap grid layout using randome icons from fontawesome
+* create random tarot cards using random icons from fontawesome
 * give insightful tips about your future with mysterious random sentences
 
 #### Later
-* you will choose between different layout
+* you will be able to choose between different layout
