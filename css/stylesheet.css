@@ -62,7 +62,7 @@ header {
 	padding: 15px 0;
 }
 header h1 {
-	font-family: 'Rye', sans-serif;
+	font-family: 'Yatra One', sans-serif;
 	font-size: 300%;
 	color: #321b70;
 }
@@ -73,13 +73,13 @@ header h1 {
 */
 main {
 	background: #654ea3;
-	padding: 15px;
+	padding: 30px;
 }
 
 /*
-#############################################
+-------------------------------------------
 			CARD
-#############################################
+-------------------------------------------
 */
 .card {
 	background: #765fb4;
@@ -92,11 +92,29 @@ main {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	transition: 0.3s;
 }
 .card:hover {
 	cursor:pointer;
+	box-shadow: 0px 0px 20px 0px rgba(32,46,17,1);
 }
 .init {
 	color: #fff;
 	font-size: 500%;
+}
+/*
+-------------------------------------------
+			DIVINATION LINE
+-------------------------------------------
+*/
+.divine {
+	padding: 30px 0;
+}
+.divine p {
+	color: #fff;
+	text-shadow: 0 0 10px #FFFFFF;
+	font-size: 150%;
+	width: 60%;
+	margin: auto;
+	text-align: center;
 }
